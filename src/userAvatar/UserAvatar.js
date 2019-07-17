@@ -1,18 +1,9 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
+import profileImg from '../images/AMGpass.png';
+import './UserAvatar.css'
 
 function UserAvatar(){
-    return (
-        <div>
-            <h1>Hejhej!</h1>
-        </div>
-    );
+    return <img className="avatarImg" src={profileImg}/>;
 }
 
-const link = "../DEMO.png"
-const element = (<UserAvatar />);
-
-ReactDOM.render(
-    element,
-    document.getElementById('articleInfo')
-);
+export default UserAvatar;
