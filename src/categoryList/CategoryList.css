@@ -5,11 +5,3 @@
 .listStyle{
     list-style:none;
 }
-
-.itemStyle{
-    display: inline-block;
-    background-color: lightblue;
-    margin: 0 5px;
-    padding: 4px 8px;
-    border-radius: 5px;
-}

@@ -1,15 +1,19 @@
 import React from "react";
-import profileImg from "../images/AMGpass.png";
+import PropTypes from 'prop-types';
 import "./UserAvatar.css";
 
-function UserAvatar() {
+function UserAvatar(props) {
   return (
     <img
       alt="The author of the article"
       className="avatarImg"
-      src={profileImg}
+      src={props.imgUrl}
     />
   );
+}
+
+UserAvatar.propTypes = {
+  imgUrl: PropTypes.string.isRequired
 }
 
 export default UserAvatar;

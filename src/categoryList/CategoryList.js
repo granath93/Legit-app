@@ -1,16 +1,16 @@
 import React from "react";
 import "./CategoryList.css";
+//import PropTypes from "prop-types";
 
-function CategoryList(prop) {
-  const list = prop.categoryList.map(category => (
-    <li className="itemStyle" key={category.id.toString()}>
-      {category.name}
-    </li>
-  ));
+function CategoryList(props) {
   return (
     <div className="listContent">
-      <ul className="listStyle">{list}</ul>
+      <ul className="listStyle">{props.children}</ul>
     </div>
   );
 }
+/*
+CategoryList.propTypes = {
+  children: PropTypes.node | PropTypes.arrayOf(PropTypes.node)
+};*/
 export default CategoryList;
