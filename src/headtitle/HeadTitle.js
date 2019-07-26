@@ -1,13 +1,16 @@
-import React from 'react';
+import React from "react";
+import PropTypes from "prop-types";
 
-function HeadTitle(props){
-    return (
-        <div>
-            <h1>{props.title}</h1>
-        </div>
-    );
+function HeadTitle(props) {
+  return (
+    <div>
+      <h1>{props.children}</h1>
+    </div>
+  );
 }
 
+HeadTitle.propTypes = {
+  children: PropTypes.string.isRequired
+};
+
 export default HeadTitle;
-
-
