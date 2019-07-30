@@ -1,6 +1,6 @@
 import React from "react";
 import "./CategoryList.css";
-//import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 function CategoryList(props) {
   return (
@@ -9,8 +9,9 @@ function CategoryList(props) {
     </div>
   );
 }
-/*
+
 CategoryList.propTypes = {
-  children: PropTypes.node | PropTypes.arrayOf(PropTypes.node)
-};*/
+  children:  PropTypes.arrayOf(PropTypes.node) || PropTypes.node
+};
+
 export default CategoryList;

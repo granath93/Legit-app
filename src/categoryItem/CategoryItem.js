@@ -5,7 +5,7 @@ import "./CategoryItem.css";
 function CategoryItem(props) {
   return (
     <li className="itemStyle">
-      {props.name}
+      <a href={props.url}> {props.name} </a>
     </li>
   );
 }

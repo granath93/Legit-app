@@ -1,7 +1,15 @@
-.itemStyle{
-    display: inline-block;
-    background-color: lightblue;
-    margin: 0 5px;
-    padding: 4px 8px;
-    border-radius: 5px;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+  font-size: 80%;
+}
+.itemStyle {
+  display: inline-block;
+  background-color: rgb(233, 232, 232);
+  margin: 0 5px;
+  padding: 0px 8px 4px 8px;
+  border-radius: 5px;
 }

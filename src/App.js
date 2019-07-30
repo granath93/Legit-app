@@ -5,12 +5,6 @@ import ArticleInfo from "./articleInfo/ArticleInfo";
 import CategoryList from "./categoryList/CategoryList";
 import CategoryItem from "./categoryItem/CategoryItem";
 
-const categories = [
-  { id: "0", name: "Programming" },
-  { id: "1", name: "Photography" },
-  { id: "2", name: "UX" }
-];
-
 function App() {
   return (
     <div className="App">
@@ -18,19 +12,23 @@ function App() {
       <ArticleInfo {...articleInfo} />
       <CategoryList>
         {categories.map(category => {
-          return <CategoryItem key={category.id} name = {category.name} />;
+          return <CategoryItem key={category.id} {...category} />;
         })}
       </CategoryList>
     </div>
   );
 }
 
-
-
 const articleInfo = {
   authorName: "Amanda Granath",
   timeToRead: "23",
   publishedDate: "2019-07-21"
 };
+
+const categories = [
+  { id: "0", name: "Programming", url: "http://google.se" },
+  { id: "1", name: "Photography", url: "http://google.se" },
+  { id: "2", name: "UX", url: "http://google.se" }
+];
 
 export default App;
