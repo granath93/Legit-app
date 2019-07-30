@@ -1,0 +1,17 @@
+.comment{
+    color:grey;
+    font-size: 90%;
+    width:100%;
+    text-align:center;
+    margin-top: 5px;
+}
+
+.topImg{
+    max-width:900px;
+    position: relative;
+    left: -10%;
+}
+
+.articleImgContainer{
+    margin: 20px 0;
+}

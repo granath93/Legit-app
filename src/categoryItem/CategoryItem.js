@@ -5,13 +5,14 @@ import "./CategoryItem.css";
 function CategoryItem(props) {
   return (
     <li className="itemStyle">
-      <a href={props.url}> {props.name} </a>
+      <a className="categoryLink" href={props.url}> {props.name} </a>
     </li>
   );
 }
 
 CategoryItem.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired
 };
 
 export default CategoryItem;

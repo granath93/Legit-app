@@ -1,12 +1,25 @@
-.infoContent{
-    width:300px;
-    height:30px;
+.infoContent {
+  height: 50px;
+  font-size: 85%;
 }
 
-.left{
-    float:left;
+.left {
+  float: left;
 }
-.right{
-    float:right;
+.right {
+  float: right;
 }
 
+.authorName {
+  margin-right: 10px;
+  text-decoration: none;
+  color:black;
+}
+
+.authorName:hover{
+    text-decoration:underline;
+}
+
+.articleDetailContainer{
+    color:grey;
+}

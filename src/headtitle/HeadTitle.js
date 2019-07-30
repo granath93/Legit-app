@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import './HeadTitle.css'
 
 function HeadTitle(props) {
   return (
     <div>
-      <h1>{props.children}</h1>
+      <h1 className="headTitle">{props.children}</h1>
     </div>
   );
 }

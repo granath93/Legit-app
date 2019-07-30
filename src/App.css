@@ -1,5 +1,5 @@
 .App {
-  width:700px;
+  width:60%;
   margin: 0 auto;
 }
 
@@ -20,15 +20,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

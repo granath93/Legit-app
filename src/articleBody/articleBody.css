@@ -1,0 +1,10 @@
+.bodyStyle::first-letter{
+    font-size: 3em;
+    padding: 0 10px;
+    float:left;
+    font-family: Arial Black, Gadget, sans-serif;
+}
+
+.bodyStyle{
+    font-size: 1.5em;
+}

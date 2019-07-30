@@ -1,0 +1,23 @@
+.followBtn{
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+    border-color:grey;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.followBtn:hover{
+    border-color:black;
+}
+
+.red{
+    border-color:red;
+    color:red;
+    font-size: 110%;
+    padding:5px;
+}
+
+.red:hover{
+    border-color:#d10b0b;
+}
