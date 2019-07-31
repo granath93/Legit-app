@@ -7,6 +7,7 @@ import CategoryList from "./categoryList/CategoryList";
 import CategoryItem from "./categoryItem/CategoryItem";
 import ArticleBody from "./articleBody/ArticleBody";
 import ArticleImg from "./articleImg/ArticleImg";
+//import Textarea from "./textarea/Textarea"
 
 function App() {
   return (
@@ -41,6 +42,6 @@ const categories = [
   { id: "2", name: "UX", url: "http://google.se" }
 ];
 
-const articleBody = 'Lorem ipsum dolor \u003ci\u003e sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+const articleBody = 'Lorem ipsum dolor \u003ci\u003e sit amet, <b>consectetur</b> \u003c\u002fi\u003e adipiscing elit, sed do eiusmod tempor <u> incididunt ut labore et </u> dolore magna. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea lorem. Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <center> <h2>aliqua</h2> </center>  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt <em>mollit</em> anim id est laborum.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
 
 export default App;

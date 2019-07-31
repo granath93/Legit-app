@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./articleBody.css"
+import "./articleBody.css";
 
-function ArticleBody(props){
+function ArticleBody (props) {
     return (
         <div>
-            <p className="bodyStyle">{props.text}</p>
-            <p>hejhej <i>heeej</i></p>
+            <div id="text" className="bodyStyle" dangerouslySetInnerHTML={{__html: props.text }} />
+            <p>Entity name for presenting characters direct in HTML:&lt;b&gt; </p>
+            <p>This is to use HTML tags in HTML directly: <b>b</b></p>
         </div>
-    );
+    );  
 }
 
 ArticleBody.propTypes = {
