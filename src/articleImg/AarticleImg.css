@@ -1,17 +1,18 @@
-.comment{
-    color:grey;
-    font-size: 90%;
-    width:100%;
-    text-align:center;
-    margin-top: 5px;
+.comment {
+  color: grey;
+  font-size: 90%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
 }
 
-.topImg{
-    max-width:900px;
-    position: relative;
-    left: -10%;
+.topImg {
+  width: 100%;
+  position: relative;
+  left: -10%;
 }
 
-.articleImgContainer{
-    margin: 20px 0;
+.articleImgContainer {
+  margin: 20px auto;
+  width: 120%;
 }

@@ -7,3 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.articleInfoContent {
+  height: 50px;
+  font-size: 85%;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}

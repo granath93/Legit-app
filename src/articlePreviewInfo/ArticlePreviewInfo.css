@@ -1,13 +1,15 @@
 .authorName {
   margin-right: 10px;
   text-decoration: none;
-  color:black;
+  color: darkviolet;
 }
 
 .authorName:hover{
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 .articleDetailContainer{
     color:grey;
 }
+
+
