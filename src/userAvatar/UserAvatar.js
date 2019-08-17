@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 import "./UserAvatar.css";
 
 function UserAvatar(props) {
+  const imgClasses = `avatarImg ${props.size}`;
   return (
     <img
       alt="The author of the article"
-      className="avatarImg"
+      className={imgClasses}
       src={props.imgUrl}
     />
   );

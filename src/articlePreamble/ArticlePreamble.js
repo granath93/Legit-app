@@ -1,12 +1,17 @@
 import React from "react";
-import Proptypes from "prop-types";
+import PropTypes from "prop-types";
 import "./ArticlePreample.css";
 
 const ArticlePreample = props => {
-  return <div className="preample">{props.text} A little interesting text about the article.</div>;
+  return (
+    <div className="preample">
+      {props.text}
+    </div>
+  );
 };
 
-//ArticlePreample.proptypes = {
-//  text: Proptypes.string.isRequired
-//};
+ArticlePreample.propTypes = {
+  text: PropTypes.string.isRequired
+};
+
 export default ArticlePreample;

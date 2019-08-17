@@ -4,8 +4,8 @@ import './HeadTitle.css'
 
 function HeadTitle(props) {
   return (
-    <div>
-      <h1 className={props.size}>{props.text}</h1>
+    <div className={props.size}>
+      {props.text}
     </div>
   );
 }

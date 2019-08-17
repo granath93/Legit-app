@@ -3,3 +3,15 @@
     border-radius: 50%;
     float: left;
 }
+
+.bigImg{
+    width:60px;
+}
+
+.mediumImg{
+    width:46px;
+}
+
+.smallImg{
+    width:35px;
+}

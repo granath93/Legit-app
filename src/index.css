@@ -12,6 +12,10 @@ body {
   font-size: 85%;
 }
 
+.noListStyleType{
+  list-style-type: none;
+}
+
 .left {
   float: left;
 }

@@ -7,9 +7,9 @@ import PropTypes from "prop-types";
 class ArticleInfo extends Component {
   render(props) {
     return (
-      <div className="articleInfoContent">
+      <div className="articleInfoContainer">
         <div>
-          <UserAvatar imgUrl={profileImg} />
+          <UserAvatar size="smallImg" imgUrl={profileImg} />
         </div>
         <div>
           <a href="/author" className="authorName">
