@@ -2,10 +2,10 @@ const articles = [
   {
     id: "324nk3w40fgs904wrfk",
     author: "Amanda Granath",
-    title: "Hello World",
+    title: "Wrestling to the World!",
     authorImg: "AMGpass.png",
     articleImg: "wrestling.jpg",
-    preamble: "Interesting text to the article",
+    preamble: "Have you ever been to wrestling? If not, do it!",
     content: "A long long text",
     minutesToRead: 2,
     date: "2019-06-21",
@@ -16,8 +16,8 @@ const articles = [
         url: "http://google.se"
       },
       {
-        id: "1",
-        category: "Programming",
+        id: "7",
+        category: "Sport",
         url: "http://google.se"
       },
       {
@@ -29,14 +29,14 @@ const articles = [
   },
   {
     id: "gh7bj95dcrt3498064c43",
-    author: "Amanda Granath",
-    title: "Hello World",
+    author: "Greta Karlsson",
+    title: "What cat should you have?",
     authorImg: "AMGpass.png",
-    articleImg: "wrestling.jpg",
-    preamble: "Interesting text to the article",
-    content: "A long long text",
+    articleImg: "cat.jpg",
+    preamble: "There are a lot of different cats, but which to choose?",
+    content: "A long long cat text",
     minutesToRead: 2,
-    date: "2019-06-21",
+    date: "2019-08-12",
     categories: [
       {
         id: "0",
@@ -44,8 +44,8 @@ const articles = [
         url: "http://google.se"
       },
       {
-        id: "1",
-        category: "Programming",
+        id: "4",
+        category: "Animals",
         url: "http://google.se"
       },
       {
@@ -59,12 +59,12 @@ const articles = [
     id: "324nk3w40f6789904wrfk",
     author: "Amanda Granath",
     authorImg: "AMGpass.png",
-    articleImg: "wrestling.jpg",
-    title: "Hello World",
-    preamble: "Interesting text to the article",
-    content: "A long long text",
+    articleImg: "christmasparty.jpg",
+    title: "Everyone loves christmas!",
+    preamble: "Christmas is a nice celebration, but how to make the best christmas party?",
+    content: "Christmas, everythong is about christmas and the partys around the ceremony.",
     minutesToRead: 2,
-    date: "2019-06-21",
+    date: "2018-12-21",
     categories: [
       {
         id: "0",
@@ -72,13 +72,13 @@ const articles = [
         url: "http://google.se"
       },
       {
-        id: "1",
-        category: "Programming",
+        id: "5",
+        category: "Party",
         url: "http://google.se"
       },
       {
-        id: "2",
-        category: "Nature",
+        id: "6",
+        category: "Drinks",
         url: "http://google.se"
       }
     ]
@@ -87,18 +87,13 @@ const articles = [
     id: "32wste6870fgs904wrfk",
     author: "Amanda Granath",
     authorImg: "AMGpass.png",
-    articleImg: "wrestling.jpg",
-    title: "Hello World",
+    articleImg: "DEMO.png",
+    title: "How to do the best DEMo",
     preamble: "Interesting text to the article",
     content: "A long long text",
     minutesToRead: 2,
     date: "2019-06-21",
     categories: [
-      {
-        id: "0",
-        category: "Photography",
-        url: "http://google.se"
-      },
       {
         id: "1",
         category: "Programming",
@@ -115,9 +110,9 @@ const articles = [
     id: "324nk3w40fgs909olnhiufk",
     author: "Amanda Granath",
     authorImg: "AMGpass.png",
-    articleImg: "wrestling.jpg",
-    title: "Hello World",
-    preamble: "Interesting text to the article",
+    articleImg: "prosecco_pong.jpg",
+    title: "Party games",
+    preamble: "What party games should you have on your party next time?",
     content: "A long long text",
     minutesToRead: 2,
     date: "2019-06-21",
@@ -128,13 +123,13 @@ const articles = [
         url: "http://google.se"
       },
       {
-        id: "1",
-        category: "Programming",
+        id: "6",
+        category: "Drinks",
         url: "http://google.se"
       },
       {
-        id: "2",
-        category: "Nature",
+        id: "5",
+        category: "Party",
         url: "http://google.se"
       }
     ]

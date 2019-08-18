@@ -6,29 +6,32 @@
 .previewContainer {
   flex-basis: 30%;
   box-sizing: border-box;
-  margin:20px 0;
+  margin: 20px 0;
 }
 .previewAnchorStyle {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-.articlePreviewImg{
+.articlePreviewImg {
   width: 300px;
+  height: 150px;
+  border: 0.5px solid black;
+  background-size: cover;
+  background-position: 49% 49%;
 }
 
-
-@media screen and (max-width: 1074px){
-    .articlePreviewImg{
-      width: 400px;
-    }
+@media screen and (max-width: 1074px) {
+  .articlePreviewImg {
+    width: 400px;
+  }
 }
 
-@media screen and (max-width: 722px){
-    .previewContainer {
-        flex-basis: 100%;
-      }
-      .articlePreviewImg{
-        width: 500px;
-      }
+@media screen and (max-width: 722px) {
+  .previewContainer {
+    flex-basis: 100%;
+  }
+  .articlePreviewImg {
+    width: 500px;
+  }
 }

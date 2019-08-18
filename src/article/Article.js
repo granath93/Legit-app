@@ -7,16 +7,18 @@ import ArticleBody from "./../articleBody/ArticleBody";
 import ArticleImg from "./../articleImg/ArticleImg";
 import ArticlePreample from "./../articlePreamble/ArticlePreamble";
 import articleTopImg from "./../images/wrestling.jpg";
-import './Article.css';
+import "./Article.css";
+import FollowBtn from "./../followBtn/FollowBtn";
 
 const Article = props => {
-  console.log(props);
   return (
     <div className="articleContainer">
       <h1>{props.match.params.id}</h1>
       <HeadTitle text={headtitle} size="big" />
       <ArticlePreample text={preamble} />
-      <ArticleInfo {...articleInfo} />
+      <ArticleInfo {...articleInfo}>
+        <FollowBtn />
+      </ArticleInfo>
       <ArticleImg {...articleImg} />
       <ArticleBody text={articleBody} />
       <CategoryList>
@@ -30,8 +32,10 @@ const Article = props => {
 
 const articleInfo = {
   authorName: "Amanda Granath",
-  timeToRead: "23",
-  publishedDate: "21 Jul"
+  timeToRead: 23,
+  publishedDate: "21 Jul",
+  imgUrl:"AMGpass.png",
+  size:"mediumImg"
 };
 
 const articleImg = {
@@ -42,12 +46,6 @@ const articleImg = {
 const headtitle = "Hello World";
 const preamble = "An interesting short text to the article";
 
-const articlePreview = {
-  articleImg: articleImg,
-  headtitle: headtitle,
-  preamble: preamble,
-  articleInfo: articleInfo
-};
 const categories = [
   { id: "0", name: "Programming", url: "http://google.se" },
   { id: "1", name: "Photography", url: "http://google.se" },

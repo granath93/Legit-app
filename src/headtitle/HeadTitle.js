@@ -14,5 +14,5 @@ HeadTitle.propTypes = {
   text: PropTypes.string.isRequired,
   size: PropTypes.string
 };
-//children: PropTypes.string.isRequired
+
 export default HeadTitle;
